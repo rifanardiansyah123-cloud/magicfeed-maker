@@ -1,0 +1,9 @@
+name = "magicfeed-ai"
+main = "index.js"
+compatibility_date = "2026-11-17"
+
+[vars]
+GEMINI_MODEL = "gemini-2.5-flash-lite"
+# Setelah frontend di-deploy, isi ALLOWED_ORIGIN dengan URL GitHub Pages.
+# Contoh: ALLOWED_ORIGIN = "https://username.github.io"
+ALLOWED_ORIGIN = "*"
